@@ -231,3 +231,23 @@
   color: #ff3344 !important;
   font-weight: 700 !important;
 }
+
+body:not([data-md-color-scheme="slate"]) .md-nav__link,
+body:not([data-md-color-scheme="slate"]) .md-nav__title,
+body:not([data-md-color-scheme="slate"]) .md-sidebar,
+body:not([data-md-color-scheme="slate"]) .md-sidebar a,
+body:not([data-md-color-scheme="slate"]) .md-nav__item {
+  color: #111827 !important;
+  opacity: 1 !important;
+}
+
+/* Enlace activo en modo claro */
+body:not([data-md-color-scheme="slate"]) .md-nav__link--active {
+  color: #d32f2f !important;
+  font-weight: 700 !important;
+}
+
+/* Hover en modo claro */
+body:not([data-md-color-scheme="slate"]) .md-nav__link:hover {
+  color: #b71c1c !important;
+}
