@@ -2,17 +2,17 @@
 <div class="carousel-container">
   <!-- Diapositiva 1: Foto del Robot -->
   <div class="carousel-slide active">
-    <img src="/assets/images/soccer-pro.jpeg" alt="Chasis Soccer Pro">
+  <img src="../../assets/images/soccer-pro.jpeg" alt="Chasis Soccer Pro">
   </div>
 
   <!-- Diapositiva 2 -->
   <div class="carousel-slide">
-    <img src="/assets/images/ima1.jpeg" alt="Robot Soccer en Pista">
+  <img src="../../assets/images/ima1.jpeg" alt="Robot Soccer en Pista">
   </div>
 
   <!-- Diapositiva 3 -->
   <div class="carousel-slide">
-    <img src="/assets/images/ima2.jpeg" alt="Competencia Oficial">
+   <img src="../../assets/images/ima2.jpeg" alt="Competencia Oficial">
   </div>
 
   <!-- Botones de navegación -->
