@@ -3,8 +3,8 @@
 /* Personalizamos el título de la barra superior */
 .md-header__title {
   font-family: 'Orbitron', sans-serif !important;
-  font-size: 1.35rem !important;      /* Más grande y visible */
-  letter-spacing: 2px !important;     /* Espaciado entre letras */
+  font-size: 1.35rem !important;
+  letter-spacing: 2px !important;
   font-weight: 900 !important;
   text-transform: uppercase;
 }
@@ -12,36 +12,37 @@
 /* Ajuste del tamaño del logo en la barra superior */
 .md-header__button.md-logo img, 
 .md-header__button.md-logo svg {
-  height: 2rem !important;            /* Altura adecuada para la barra */
+  height: 2rem !important;
   width: auto !important;
 }
-/* 1. Estira la barra de cabecera superior y alinea el logo a la izquierda */
+
+/* Estira la cabecera superior y alinea el logo a la izquierda */
 .md-header__inner {
   max-width: 100% !important;
-  padding: 0 2rem !important; /* Espacio cómodo con el borde izquierdo */
+  padding: 0 2rem !important;
 }
 
-/* 2. Estira la barra de pestañas (Inicio, Robots...) y alínealas a la izquierda */
+/* Estira la barra de pestañas y alinea a la izquierda */
 .md-tabs {
   max-width: 100% !important;
 }
 
 .md-tabs__list {
-  justify-content: flex-start !important; /* Pega las pestañas a la izquierda */
-  padding-left: 2rem !important;          /* Alineado exactamente con el logo */
+  justify-content: flex-start !important;
+  padding-left: 2rem !important;
 }
 
-/* 3. Permite que el área de contenido aproveche el ancho sin quedar encogida al centro */
+/* Aprovechamiento del ancho del contenedor */
 .md-grid {
   max-width: 95% !important;
   margin-left: 2rem !important;
   margin-right: auto !important;
 }
-/* Contenedor del Carrusel */
+
 .carousel-container {
   position: relative;
   max-width: 600px;
-  height: 380px; /* Altura fija para que nunca colapse */
+  height: 380px;
   margin: 1.5rem auto;
   border-radius: 12px;
   overflow: hidden;
@@ -49,7 +50,6 @@
   background-color: #111418;
 }
 
-/* Diapositivas */
 .carousel-slide {
   display: none;
   height: 100%;
@@ -60,16 +60,14 @@
   animation: fadeEffect 0.6s ease-in-out;
 }
 
-/* Imagen ajustada de forma uniforme */
 .carousel-slide img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Muestra el robot completo sin recortar los bordes */
+  object-fit: contain;
   background-color: #1a1e24;
   display: block;
 }
 
-/* Texto del pie de foto */
 .carousel-caption {
   position: absolute;
   bottom: 0;
@@ -81,7 +79,6 @@
   text-align: center;
 }
 
-/* Botones Anterior y Siguiente */
 .carousel-btn {
   cursor: pointer;
   position: absolute;
@@ -108,15 +105,9 @@
   color: #ffffff;
 }
 
-.carousel-prev {
-  left: 12px;
-}
+.carousel-prev { left: 12px; }
+.carousel-next { right: 12px; }
 
-.carousel-next {
-  right: 12px;
-}
-
-/* Puntos indicadores */
 .carousel-dots {
   position: absolute;
   bottom: 8px;
@@ -148,73 +139,30 @@
   to { opacity: 1; }
 }
 
-
-/* 1. Rojo deportivo en cabecera y acentos */
 [data-md-color-primary="red"] {
-  --md-primary-fg-color:        #d90429 !important; /* Rojo intenso cabecera */
+  --md-primary-fg-color:        #d90429 !important;
   --md-primary-fg-color--light: #ef233c !important;
   --md-primary-fg-color--dark:  #8d0801 !important;
 }
 
 [data-md-color-accent="red"] {
-  --md-accent-fg-color:         #ff1e42 !important; /* Enlaces y selección activos */
+  --md-accent-fg-color:         #ff1e42 !important;
 }
 
-/* 2. Fondo negro puro y tipografía en blanco legible */
+
 [data-md-color-scheme="slate"] {
-  /* Fondos */
-  --md-default-bg-color:          #000000 !important; /* Fondo general negro */
-  --md-default-bg-color--light:   #0a0a0a !important; /* Tarjetas y paneles */
-  --md-default-bg-color--lighter: #141414 !important; /* Bloques de código */
+  --md-default-bg-color:          #000000 !important;
+  --md-default-bg-color--light:   #0a0a0a !important;
+  --md-default-bg-color--lighter: #141414 !important;
 
-  /* Textos principales del tema y menú lateral */
-  --md-default-fg-color:          #ffffff !important; /* Texto general blanco puro */
-  --md-default-fg-color--light:   #d1d5db !important; /* Menú lateral y subtítulos */
-  --md-default-fg-color--lighter: #9ca3af !important; /* Textos secundarios */
+  --md-default-fg-color:          #ffffff !important;
+  --md-default-fg-color--light:   #d1d5db !important;
+  --md-default-fg-color--lighter: #9ca3af !important;
 
-  /* Textos dentro del contenido Markdown (títulos, listas, párrafos) */
   --md-typeset-color:             #f3f4f6 !important;
-  --md-typeset-a-color:           #ff3355 !important; /* Color de hipervínculos */
+  --md-typeset-a-color:           #ff3355 !important;
 }
 
-/* Forzar que los enlaces de navegación del menú lateral se lean claros */
-.md-nav__link {
-  color: #e5e7eb !important;
-}
-
-
-/* MODO CLARO: Menú izquierdo, títulos anidados y tabla de contenidos derecha */
-[data-md-color-scheme="default"] .md-nav,
-[data-md-color-scheme="default"] .md-nav__link,
-[data-md-color-scheme="default"] .md-nav__title,
-[data-md-color-scheme="default"] .md-nav__item,
-[data-md-color-scheme="default"] .md-sidebar,
-[data-md-color-scheme="default"] .md-sidebar a {
-  color: #1f2937 !important; /* Gris oscuro nítido y legible */
-  opacity: 1 !important;
-}
-
-/* Categorías o secciones principales en negrita (Modo Claro) */
-[data-md-color-scheme="default"] .md-nav__item--nested > .md-nav__link,
-[data-md-color-scheme="default"] .md-nav__title {
-  color: #111827 !important;
-  font-weight: 700 !important;
-}
-
-/* Enlace activo/seleccionado en Rojo (Modo Claro) */
-[data-md-color-scheme="default"] .md-nav__link--active,
-[data-md-color-scheme="default"] .md-nav__link--active:focus {
-  color: #d32f2f !important;
-  font-weight: 700 !important;
-}
-
-/* Hover de enlaces (Modo Claro) */
-[data-md-color-scheme="default"] .md-nav__link:hover {
-  color: #b71c1c !important;
-}
-
-
-/* MODO OSCURO */
 [data-md-color-scheme="slate"] .md-nav__link,
 [data-md-color-scheme="slate"] .md-sidebar a {
   color: rgba(255, 255, 255, 0.78) !important;
@@ -225,6 +173,7 @@
 [data-md-color-scheme="slate"] .md-nav__title {
   color: #ffffff !important;
   font-weight: 700 !important;
+  opacity: 1 !important;
 }
 
 [data-md-color-scheme="slate"] .md-nav__link--active {
@@ -232,22 +181,38 @@
   font-weight: 700 !important;
 }
 
-body:not([data-md-color-scheme="slate"]) .md-nav__link,
-body:not([data-md-color-scheme="slate"]) .md-nav__title,
-body:not([data-md-color-scheme="slate"]) .md-sidebar,
-body:not([data-md-color-scheme="slate"]) .md-sidebar a,
-body:not([data-md-color-scheme="slate"]) .md-nav__item {
-  color: #111827 !important;
+[data-md-color-scheme="default"] {
+  --md-default-fg-color:          #111827 !important;
+  --md-default-fg-color--light:   #374151 !important;
+  --md-default-fg-color--lighter: #4b5563 !important;
+}
+
+/* Enlaces y textos del menú lateral y de la tabla de contenidos */
+[data-md-color-scheme="default"] .md-nav__link,
+[data-md-color-scheme="default"] .md-nav__title,
+[data-md-color-scheme="default"] .md-nav__item,
+[data-md-color-scheme="default"] .md-sidebar,
+[data-md-color-scheme="default"] .md-sidebar a {
+  color: #1f2937 !important;
   opacity: 1 !important;
 }
 
-/* Enlace activo en modo claro */
-body:not([data-md-color-scheme="slate"]) .md-nav__link--active {
+/* Títulos de secciones y carpetas anidadas */
+[data-md-color-scheme="default"] .md-nav__item--nested > .md-nav__link,
+[data-md-color-scheme="default"] .md-nav__title,
+[data-md-color-scheme="default"] .md-nav__title[for] {
+  color: #111827 !important;
+  font-weight: 700 !important;
+  opacity: 1 !important;
+}
+
+/* Enlace activo/seleccionado */
+[data-md-color-scheme="default"] .md-nav__link--active {
   color: #d32f2f !important;
   font-weight: 700 !important;
 }
 
-/* Hover en modo claro */
-body:not([data-md-color-scheme="slate"]) .md-nav__link:hover {
+/* Hover de enlaces */
+[data-md-color-scheme="default"] .md-nav__link:hover {
   color: #b71c1c !important;
 }
