@@ -183,27 +183,51 @@
 }
 
 
-/* Corrección de color para el menú lateral en modo claro */
-[data-md-color-scheme="default"] .md-nav__link {
-  color: #212121 !important;
+/* MODO CLARO: Menú izquierdo, títulos anidados y tabla de contenidos derecha */
+[data-md-color-scheme="default"] .md-nav,
+[data-md-color-scheme="default"] .md-nav__link,
+[data-md-color-scheme="default"] .md-nav__title,
+[data-md-color-scheme="default"] .md-nav__item,
+[data-md-color-scheme="default"] .md-sidebar,
+[data-md-color-scheme="default"] .md-sidebar a {
+  color: #1f2937 !important; /* Gris oscuro nítido y legible */
+  opacity: 1 !important;
 }
 
-[data-md-color-scheme="default"] .md-nav__item--nested > .md-nav__link {
-  color: #111111 !important;
+/* Categorías o secciones principales en negrita (Modo Claro) */
+[data-md-color-scheme="default"] .md-nav__item--nested > .md-nav__link,
+[data-md-color-scheme="default"] .md-nav__title {
+  color: #111827 !important;
   font-weight: 700 !important;
 }
 
-[data-md-color-scheme="default"] .md-nav__link--active {
+/* Enlace activo/seleccionado en Rojo (Modo Claro) */
+[data-md-color-scheme="default"] .md-nav__link--active,
+[data-md-color-scheme="default"] .md-nav__link--active:focus {
   color: #d32f2f !important;
   font-weight: 700 !important;
 }
 
-/* Modo oscuro */
-[data-md-color-scheme="slate"] .md-nav__link {
-  color: rgba(255, 255, 255, 0.75) !important;
+/* Hover de enlaces (Modo Claro) */
+[data-md-color-scheme="default"] .md-nav__link:hover {
+  color: #b71c1c !important;
+}
+
+
+/* MODO OSCURO */
+[data-md-color-scheme="slate"] .md-nav__link,
+[data-md-color-scheme="slate"] .md-sidebar a {
+  color: rgba(255, 255, 255, 0.78) !important;
+  opacity: 1 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__item--nested > .md-nav__link,
+[data-md-color-scheme="slate"] .md-nav__title {
+  color: #ffffff !important;
+  font-weight: 700 !important;
 }
 
 [data-md-color-scheme="slate"] .md-nav__link--active {
-  color: #ff5252 !important;
+  color: #ff3344 !important;
   font-weight: 700 !important;
 }
