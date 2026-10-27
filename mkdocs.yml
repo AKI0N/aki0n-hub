@@ -1,0 +1,56 @@
+site_name: AKI0N
+site_url: https://AKI0N.github.io/aki0n-hub/
+site_description: Documentación oficial, guías de ensamble y soporte para robots de competencia.
+site_author: Aaron Guaman
+
+theme:
+  name: material
+  language: es
+  logo: assets/images/logo.jpeg
+  favicon: assets/images/logo.jpeg
+  palette:
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo claro
+    - scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo oscuro
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/carousel.js
+
+nav:
+  - Inicio: index.md
+  - Robots de Competencia:
+      - Soccer Pro:
+          - Acerca de la Categoría: robots/soccer-pro/acerca-de.md
+          - Materiales y Componentes: robots/soccer-pro/materiales.md
+          - Ensamblaje y Conexiones: robots/soccer-pro/ensamblaje.md
+          - Descarga STL: robots/soccer-pro/descargas.md
+      - Mini Sumo: robots/mini-sumo.md
+  # - Kits Educativos:
+  #     - kits/esquivador.md
+  - Comunidad:
+      - comunidad/galeria.md
+  - Redes y Contacto: contacto.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

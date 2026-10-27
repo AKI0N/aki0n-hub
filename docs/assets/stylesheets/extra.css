@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&display=swap');
+
+/* Personalizamos el título de la barra superior */
+.md-header__title {
+  font-family: 'Orbitron', sans-serif !important;
+  font-size: 1.35rem !important;      /* Más grande y visible */
+  letter-spacing: 2px !important;     /* Espaciado entre letras */
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+/* Ajuste del tamaño del logo en la barra superior */
+.md-header__button.md-logo img, 
+.md-header__button.md-logo svg {
+  height: 2rem !important;            /* Altura adecuada para la barra */
+  width: auto !important;
+}
+/* 1. Estira la barra de cabecera superior y alinea el logo a la izquierda */
+.md-header__inner {
+  max-width: 100% !important;
+  padding: 0 2rem !important; /* Espacio cómodo con el borde izquierdo */
+}
+
+/* 2. Estira la barra de pestañas (Inicio, Robots...) y alínealas a la izquierda */
+.md-tabs {
+  max-width: 100% !important;
+}
+
+.md-tabs__list {
+  justify-content: flex-start !important; /* Pega las pestañas a la izquierda */
+  padding-left: 2rem !important;          /* Alineado exactamente con el logo */
+}
+
+/* 3. Permite que el área de contenido aproveche el ancho sin quedar encogida al centro */
+.md-grid {
+  max-width: 95% !important;
+  margin-left: 2rem !important;
+  margin-right: auto !important;
+}
+/* Contenedor del Carrusel */
+.carousel-container {
+  position: relative;
+  max-width: 600px;
+  height: 380px; /* Altura fija para que nunca colapse */
+  margin: 1.5rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+  background-color: #111418;
+}
+
+/* Diapositivas */
+.carousel-slide {
+  display: none;
+  height: 100%;
+}
+
+.carousel-slide.active {
+  display: block;
+  animation: fadeEffect 0.6s ease-in-out;
+}
+
+/* Imagen ajustada de forma uniforme */
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Muestra el robot completo sin recortar los bordes */
+  background-color: #1a1e24;
+  display: block;
+}
+
+/* Texto del pie de foto */
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+  color: #fff;
+  padding: 18px 15px 10px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Botones Anterior y Siguiente */
+.carousel-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: #e7eaeb;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  user-select: none;
+  transition: 0.3s;
+  z-index: 10;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.35);
+  color: #ffffff;
+}
+
+.carousel-prev {
+  left: 12px;
+}
+
+.carousel-next {
+  right: 12px;
+}
+
+/* Puntos indicadores */
+.carousel-dots {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.carousel-dot {
+  cursor: pointer;
+  height: 9px;
+  width: 9px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.carousel-dot.active-dot,
+.carousel-dot:hover {
+  background-color: #ffffff;
+  transform: scale(1.2);
+}
+
+@keyframes fadeEffect {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+/* ===================================================
+   TEMA DEFINITIVO: ROJO INTENSO + NEGRO PURO (ALTO CONTRASTE)
+   =================================================== */
+
+/* 1. Rojo deportivo en cabecera y acentos */
+[data-md-color-primary="red"] {
+  --md-primary-fg-color:        #d90429 !important; /* Rojo intenso cabecera */
+  --md-primary-fg-color--light: #ef233c !important;
+  --md-primary-fg-color--dark:  #8d0801 !important;
+}
+
+[data-md-color-accent="red"] {
+  --md-accent-fg-color:         #ff1e42 !important; /* Enlaces y selección activos */
+}
+
+/* 2. Fondo negro puro y tipografía en blanco legible */
+[data-md-color-scheme="slate"] {
+  /* Fondos */
+  --md-default-bg-color:          #000000 !important; /* Fondo general negro */
+  --md-default-bg-color--light:   #0a0a0a !important; /* Tarjetas y paneles */
+  --md-default-bg-color--lighter: #141414 !important; /* Bloques de código */
+
+  /* Textos principales del tema y menú lateral */
+  --md-default-fg-color:          #ffffff !important; /* Texto general blanco puro */
+  --md-default-fg-color--light:   #d1d5db !important; /* Menú lateral y subtítulos */
+  --md-default-fg-color--lighter: #9ca3af !important; /* Textos secundarios */
+
+  /* Textos dentro del contenido Markdown (títulos, listas, párrafos) */
+  --md-typeset-color:             #f3f4f6 !important;
+  --md-typeset-a-color:           #ff3355 !important; /* Color de hipervínculos */
+}
+
+/* Forzar que los enlaces de navegación del menú lateral se lean claros */
+.md-nav__link {
+  color: #e5e7eb !important;
+}
+
+.md-nav__link--active {
+  color: #ff1e42 !important; /* El tema seleccionado resalta en rojo neón */
+  font-weight: bold;
+}
