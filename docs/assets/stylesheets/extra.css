@@ -148,9 +148,6 @@
   to { opacity: 1; }
 }
 
-/* ===================================================
-   TEMA DEFINITIVO: ROJO INTENSO + NEGRO PURO (ALTO CONTRASTE)
-   =================================================== */
 
 /* 1. Rojo deportivo en cabecera y acentos */
 [data-md-color-primary="red"] {
@@ -185,7 +182,28 @@
   color: #e5e7eb !important;
 }
 
-.md-nav__link--active {
-  color: #ff1e42 !important; /* El tema seleccionado resalta en rojo neón */
-  font-weight: bold;
+
+/* Corrección de color para el menú lateral en modo claro */
+[data-md-color-scheme="default"] .md-nav__link {
+  color: #212121 !important;
+}
+
+[data-md-color-scheme="default"] .md-nav__item--nested > .md-nav__link {
+  color: #111111 !important;
+  font-weight: 700 !important;
+}
+
+[data-md-color-scheme="default"] .md-nav__link--active {
+  color: #d32f2f !important;
+  font-weight: 700 !important;
+}
+
+/* Modo oscuro */
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #ff5252 !important;
+  font-weight: 700 !important;
 }
