@@ -42,15 +42,13 @@ nav:
           - Materiales y Componentes: robots/soccer-pro/materiales.md
           - Ensamblaje y Conexiones: robots/soccer-pro/ensamblaje.md
           - Descarga STL: robots/soccer-pro/descargas.md
-      - Mini Sumo: robots/mini-sumo.md
-      - Generalidades: robots/mini-sumo.md
+      - Mini Sumo:
+          - Generalidades: robots/mini-sumo.md
           - RC Amateur:
               - Introducción: robots/mini-sumo/rc-amateur/index.md
               - Materiales: robots/mini-sumo/rc-amateur/materiales.md
               - Ensamblaje y Conexión: robots/mini-sumo/rc-amateur/ensamblaje.md
               - Descarga STL: robots/mini-sumo/rc-amateur/descargas.md
-  # - Kits Educativos:
-  #     - kits/esquivador.md
   - Comunidad:
       - comunidad/galeria.md
   - Redes y Contacto: contacto.md
