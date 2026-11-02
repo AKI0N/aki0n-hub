@@ -7,7 +7,7 @@
 
   <!-- Diapositiva 2 -->
   <div class="carousel-slide">
-    <img src="../../../assets/images/Cad_rca.jpeg" alt="Robot Soccer en Pista">
+    <img src="../../../assets/images/Cad_rca.PNG" alt="Robot Soccer en Pista">
   </div>
 
   <!-- Diapositiva 3 -->
