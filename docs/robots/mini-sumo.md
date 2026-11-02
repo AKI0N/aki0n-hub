@@ -31,7 +31,7 @@ El **Mini Sumo** es una de las categorías de combate robótico más dinámicas 
       </p>
     </div>
     <div style="margin-top: 1.5rem;">
-      <a href="rc-amateur/" style="color: #ff3344; font-weight: bold; text-decoration: none; font-size: 0.95rem;">
+      <a href="mini-sumo/rc-amateur/" style="color: #ff3344; font-weight: bold; text-decoration: none; font-size: 0.95rem;">
         → Ver Guía de Construcción
       </a>
     </div>
