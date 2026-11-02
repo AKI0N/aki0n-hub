@@ -1,21 +1,21 @@
 # 🥋 Mini Sumo
 
-El **Mini Sumo** es una de las categorías de combate robótico más dinámicas y técnicas. Dos robots se enfrentan en un ring circular (*dohyo*) de 77 cm de diámetro con el objetivo de localizar al oponente y expulsarlo del área de combate antes de cruzar la línea blanca de seguridad.
+El **Mini Sumo** es una de las categorías de combate robótico más dinámicas y técnicas. Dos robots se enfrentan en un ring circular (*dohyo*) de 77 cm de diámetro con el objetivo de localizar al oponente y expulsarlo del área de combate.
 
 ---
 
 ### 📋 Especificaciones Oficiales de la Categoría
 
 * **Dimensiones máximas:** 10 cm × 10 cm al iniciar el combate (sin límite de altura).
-* **Masa máxima:** 500 g exactos.
-* **Superficie de combate:** Dohyo circular negro mate de 77 cm de diámetro con borde blanco reglamentario de 2.5 cm.
+* **Peso máximo:** 500 g exactos.
+* **Superficie de combate:** Dohyo circular negro de 77 cm de diámetro con borde blanco reglamentario de 2.5 cm.
 * **Modalidades:**
-    * **Radio Control (RC):** Operado en tiempo real mediante un radiocontrolador (2.4 GHz).
-    * **Autónomo:** Operación 100% independiente mediante sensores de detección y algoritmos de combate tras 5 segundos de arranque seguro.
+    * **Radio Control (RC):** Operado en tiempo real mediante un radiocontrolador/bluetooth.
+    * **Autónomo:** Operación 100% independiente mediante sensores de detección y programación.
 
 ---
 
-## 🚀 Selecciona tu Nivel y Modalidad
+## 🚀 Selecciona tu modalidad
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
 
@@ -27,7 +27,7 @@ El **Mini Sumo** es una de las categorías de combate robótico más dinámicas 
         <span style="background: #ff3344; color: #ffffff; font-size: 0.7rem; font-weight: bold; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">Disponible</span>
       </div>
       <p style="font-size: 0.9rem; color: #a1a1aa; line-height: 1.5;">
-        La puerta de entrada ideal. Utiliza motorreductores accesibles tipo TT amarillos, puente H estándar y receptor RC básico para aprender control de tracción y ensamblaje.
+        Tu primer paso en la arena. La puerta de entrada al combate robótico: accesible, dinámico y diseñado para que demuestres tus reflejos y astucia al volante sin barreras de entrada.
       </p>
     </div>
     <div style="margin-top: 1.5rem;">
@@ -45,7 +45,7 @@ El **Mini Sumo** es una de las categorías de combate robótico más dinámicas 
         <span style="background: rgba(255, 255, 255, 0.1); color: #a1a1aa; font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 4px;">Próximamente</span>
       </div>
       <p style="font-size: 0.9rem; color: #71717a; line-height: 1.5;">
-        Rendimiento puro de torneo. Motores de alto torque con caja reductora metálica, pala de acero al ras del piso, chasis de bajo perfil y control de potencia avanzado.
+        Dominio y potencia al extremo. Para pilotos que buscan llevar la tracción, la velocidad de reacción y la agresividad del choque al estándar más alto del torneo.
       </p>
     </div>
     <div style="margin-top: 1.5rem;">
@@ -61,7 +61,7 @@ El **Mini Sumo** es una de las categorías de combate robótico más dinámicas 
         <span style="background: rgba(255, 255, 255, 0.1); color: #a1a1aa; font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 4px;">Próximamente</span>
       </div>
       <p style="font-size: 0.9rem; color: #71717a; line-height: 1.5;">
-        Aprende lógica de combate sin operador. Basado en Arduino Nano, sensores ultrasónicos o de proximidad accesibles y lectura básica de línea blanca.
+        Dale vida a tu primer robot. El salto hacia la inteligencia artificial básica: programa tus primeras estrategias de búsqueda y aprende a sobrevivir en el dohyo sin tocar un control.
       </p>
     </div>
     <div style="margin-top: 1.5rem;">
@@ -77,7 +77,7 @@ El **Mini Sumo** es una de las categorías de combate robótico más dinámicas 
         <span style="background: rgba(255, 255, 255, 0.1); color: #a1a1aa; font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 4px;">Próximamente</span>
       </div>
       <p style="font-size: 0.9rem; color: #71717a; line-height: 1.5;">
-        Ingeniería al límite competitivo. Sensores de oponente de alta velocidad, lectura analógica/digital de borde, estrategias tácticas de arranque y PCB personalizada.
+        Guerra de algoritmos en milisegundos. Alta ingeniería donde la velocidad de procesamiento, la visión ultrarrápida y las tácticas implacables deciden la victoria en un parpadeo.
       </p>
     </div>
     <div style="margin-top: 1.5rem;">
