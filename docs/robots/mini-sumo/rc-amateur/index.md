@@ -35,6 +35,6 @@ El **Mini Sumo RC Amateur** es el punto de partida perfecto para iniciarse en la
 
 Para construir tu robot paso a paso, sigue las secciones de esta documentación:
 
-1. **[Materiales y Componentes](materiales.md):** Lista detallada de tornillería, componentes electrónicos, filamento recomendado y herramientas necesarias.
-2. **[Ensamblaje y Conexiones](ensamblaje.md):** Guía paso a paso del montaje mecánico, cableado del puente H hacia el receptor y asignación de canales.
-3. **[Descarga STL y Fabricación](descargas.md):** Archivos listos para mandar a la impresora 3D y parámetros recomendados de laminación.
+1. [**Materiales y Componentes**](./materiales.md): Lista detallada de tornillería, componentes electrónicos, filamento recomendado y herramientas necesarias.
+2. [**Ensamblaje y Conexiones**](./ensamblaje.md): Guía paso a paso del montaje mecánico, cableado del puente H hacia el receptor y asignación de canales.
+3. [**Descarga STL y Fabricación**](./descargas.md): Archivos listos para mandar a la impresora 3D y parámetros recomendados de laminación.
