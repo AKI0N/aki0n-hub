@@ -17,11 +17,11 @@ El robot ha sido dimensionado estrictamente bajo el reglamento oficial de Mini S
 
 Los rines impresos en 3D están optimizados para los motores TT de 1 eje e integran pestañas de retención para evitar que los neumáticos se deslicen lateralmente bajo torsión:
 
-* **Diámetro del cuerpo del rin:** $\varnothing 20.0\text{ mm}$ (zona de asiento del neumático).
-* **Ancho de tracción (extrusión del cuerpo):** $22.0\text{ mm}$.
-* **Pestaña limitadora de retención:** $\varnothing 24.0\text{ mm}$ (borde exterior sobredimensionado).
-* **Espesor de la pestaña limitadora:** $1.5\text{ mm}$ de extrusión lateral para asegurar la goma de silicona.
-* **Neumáticos compatibles recomendados:** Gomas de silicona/caucho con radio interno de $18\text{ mm}$ y radio externo de $27\text{ mm}$[cite: 14].
+* **Diámetro del cuerpo del rin:** Ø 20.0 mm (zona de asiento del neumático).
+* **Ancho de tracción (extrusión del cuerpo):** 22.0 mm.
+* **Pestaña limitadora de retención:** Ø 24.0 mm (borde exterior sobredimensionado).
+* **Espesor de la pestaña limitadora:** 1.5 mm de extrusión lateral para asegurar la goma de silicona.
+* **Neumáticos compatibles recomendados:** Gomas de silicona/caucho con radio interno de 18 mm y radio externo de 27 mm.
 
 ---
 
