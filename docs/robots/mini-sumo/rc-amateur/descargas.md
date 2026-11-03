@@ -5,7 +5,7 @@ Si deseas adquirir los archivos STL listos para enviar a tu impresora 3D:
   </a>
 </div>
 <div align="center" style="margin: 1.5rem 0;">
-  <img src="../../../assets/images/Impresion.jpeg" alt="Orientación en Laminador 3D" style="max-height: 380px; width: auto; border-radius: 10px; border: 1px solid rgba(0, 229, 255, 0.2); box-shadow: 0 4px 18px rgba(0,0,0,0.5);">
+  <img src="../../../assets/images/laminador-rca.jpeg" alt="Orientación en Laminador 3D" style="max-height: 380px; width: auto; border-radius: 10px; border: 1px solid rgba(0, 229, 255, 0.2); box-shadow: 0 4px 18px rgba(0,0,0,0.5);">
   <p style="font-size: 0.85rem; color: #8fa0b5; margin-top: 8px;">Orientación sugerida en la cama de impresión sin soportes en zonas críticas</p>
 </div>
 
