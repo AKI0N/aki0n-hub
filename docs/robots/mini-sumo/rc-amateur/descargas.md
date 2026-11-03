@@ -1,4 +1,4 @@
-Si deseas adquirir los archivos STL listos para mandar a tu impresora 3D:
+Si deseas adquirir los archivos STL listos para enviar a tu impresora 3D:
 <div align="center" style="margin: 2rem 0;">
   <a href="https://cults3d.com/es/modelo-3d/variado/mini-sumo-rc-amateur-aki0n-2" target="_blank" style="background-color: #db4c4c; color: #ffffff; padding: 12px 30px; font-weight: bold; font-size: 1rem; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 14px rgba(235, 118, 102, 0.35); display: inline-block; transition: 0.3s;">
     🛒 Descargar STL en Cults3D
