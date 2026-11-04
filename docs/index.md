@@ -1,35 +1,21 @@
+---
+hide:
+  - title
+---
 
-<div class="akion-hero-container">
-  <img src="assets/images/AKI0N_mejorada_2x.png" alt="AKI0N Hub" class="akion-island-bg">
-
-  <!-- Pin 1: Mini Sumo (Brazo robótico) -->
-  <a href="robots/mini-sumo/" class="hotspot" style="top: 48%; left: 34%;" data-title="Mini Sumo">
-    <span class="pulse"></span>
-    <span class="label">Mini Sumo</span>
-  </a>
-
-  <!-- Pin 2: Sobre AKI0N (Robot central) -->
-  <a href="#proyectos" class="hotspot" style="top: 52%; left: 49%;" data-title="Proyectos">
-    <span class="pulse"></span>
-    <span class="label">Sobre AKI0N</span>
-  </a>
-
-  <!-- Pin 3: Soccer Pro (Rover) -->
-  <a href="robots/soccer-pro/" class="hotspot" style="top: 58%; left: 66%;" data-title="Soccer Pro">
-    <span class="pulse"></span>
-    <span class="label">Soccer Pro</span>
-  </a>
-
-  <!-- Pin 4: Comunidad y Redes (Antena) -->
-  <a href="contacto.md" class="hotspot" style="top: 42%; left: 62%;" data-title="Comunidad">
-    <span class="pulse"></span>
-    <span class="label">Contacto</span>
-  </a>
-</div>
 Plataforma oficial de documentación técnica, esquemáticos y guías de ensamble para robots de competencia y proyectos.
 
 ---
 
+<div style="width: 100%; margin: 0.5rem auto 2rem auto; text-align: center;">
+  <img src="assets/images/AKI0N_mejorada_2x.png" alt="AKI0N Hub" style="width: 100%; height: auto; max-height: 540px; object-fit: contain; border-radius: 12px; box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55); border: 1px solid rgba(255, 255, 255, 0.08);">
+</div>
+
+<p style="font-size: 1.1rem; line-height: 1.6; color: #e2e8f0; font-weight: 500;">
+  Plataforma oficial de documentación técnica, esquemáticos y guías de ensamble para robots de competencia y proyectos.
+</p>
+
+Diseñada para dos mundos: apasionados por la tecnología que buscan armar proyectos para aprender y experimentar desde casa, y competidores nuevos que buscan cómo dar sus primeros pasos en este entorno. Ya sea por curiosidad de construir o por las ganas de competir, aquí tienes el punto de partida ideal.
 Diseñada para dos mundos: apasionados por la tecnología que buscan armar proyectos para aprender y experimentar desde casa, y competidores nuevos que buscan cómo dar sus primeros pasos en este entorno. Ya sea por curiosidad de construir o por las ganas de competir, aquí tienes el punto de partida ideal.
 
 [Explorar Robots :octicons-arrow-right-24:](robots/soccer-pro/acerca-de.md){ .md-button .md-button--primary }
