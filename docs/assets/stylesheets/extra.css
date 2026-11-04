@@ -216,3 +216,21 @@
 [data-md-color-scheme="default"] .md-nav__link:hover {
   color: #b71c1c !important;
 }
+/* Ocultar el título H1 inicial en la portada */
+.md-content__inner > h1:first-child,
+.md-content__inner > header {
+  display: none !important;
+}
+
+/* Ocultar la barra de migas de pan (breadcrumbs) */
+.md-path,
+nav.md-path {
+  display: none !important;
+}
+
+/* Ocultar cualquier encabezado o título generado al inicio del contenido */
+.md-content__inner > header,
+.md-content__inner > h1:first-child,
+.md-content__button {
+  display: none !important;
+}
