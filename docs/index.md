@@ -2,11 +2,6 @@
 hide:
   - title
 ---
-
-Plataforma oficial de documentación técnica, esquemáticos y guías de ensamble para robots de competencia y proyectos.
-
----
-
 <div style="width: 100%; margin: 0.5rem auto 2rem auto; text-align: center;">
   <img src="assets/images/AKI0N_mejorada_2x.png" alt="AKI0N Hub" style="width: 100%; height: auto; max-height: 540px; object-fit: contain; border-radius: 12px; box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55); border: 1px solid rgba(255, 255, 255, 0.08);">
 </div>
