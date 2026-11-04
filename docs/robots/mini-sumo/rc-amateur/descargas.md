@@ -5,9 +5,8 @@ Si deseas adquirir los archivos STL listos para enviar a tu impresora 3D:
     🛒 Descargar STL en Cults3D
   </a>
 </div>
-
 <div align="center" style="margin: 1.5rem 0;">
-  <img src="../../../assets/images/Lamina.jpeg" alt="Orientación en Laminador 3D" style="max-height: 380px; width: auto; border-radius: 10px; border: 1px solid rgba(0, 229, 255, 0.2); box-shadow: 0 4px 18px rgba(0,0,0,0.5); display: inline-block;">
+  <<img src="../../../assets/images/Lamina.jpeg" alt="Orientación en Laminador 3D"> style="max-height: 380px; width: auto; border-radius: 10px; border: 1px solid rgba(0, 229, 255, 0.2); box-shadow: 0 4px 18px rgba(0,0,0,0.5); display: inline-block;">
   <p style="font-size: 0.85rem; color: #8fa0b5; margin-top: 8px;"></p>
 </div>
 
