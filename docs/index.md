@@ -1,11 +1,31 @@
 # ⚡ AKI0N Robotics
 
-<div align="center" style="margin: 1.5rem auto 2.5rem auto; max-width: 1100px;">
-  <img 
-    src="assets/images/AKI0N_mejorada_2x.png" 
-    alt="AKI0N Hub - Robótica y Competencia" 
-    style="width: 100%; height: auto; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.12); box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7); display: block;"
-  />
+<div class="akion-hero-container">
+  <img src="assets/images/AKI0N_mejorada_2x.png" alt="AKI0N Hub" class="akion-island-bg">
+
+  <!-- Pin 1: Mini Sumo (Brazo robótico) -->
+  <a href="robots/mini-sumo/" class="hotspot" style="top: 48%; left: 34%;" data-title="Mini Sumo">
+    <span class="pulse"></span>
+    <span class="label">Mini Sumo</span>
+  </a>
+
+  <!-- Pin 2: Sobre AKI0N (Robot central) -->
+  <a href="#proyectos" class="hotspot" style="top: 52%; left: 49%;" data-title="Proyectos">
+    <span class="pulse"></span>
+    <span class="label">Sobre AKI0N</span>
+  </a>
+
+  <!-- Pin 3: Soccer Pro (Rover) -->
+  <a href="robots/soccer-pro/" class="hotspot" style="top: 58%; left: 66%;" data-title="Soccer Pro">
+    <span class="pulse"></span>
+    <span class="label">Soccer Pro</span>
+  </a>
+
+  <!-- Pin 4: Comunidad y Redes (Antena) -->
+  <a href="contacto.md" class="hotspot" style="top: 42%; left: 62%;" data-title="Comunidad">
+    <span class="pulse"></span>
+    <span class="label">Contacto</span>
+  </a>
 </div>
 Plataforma oficial de documentación técnica, esquemáticos y guías de ensamble para robots de competencia y proyectos.
 
