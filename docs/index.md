@@ -2,6 +2,7 @@
 hide:
   - navigation
   - toc
+  - title
 ---
 <div class="akion-hero-cover">
   <img src="assets/images/AKI0N_mejorada_2x.png" alt="AKI0N Hub">
@@ -47,7 +48,7 @@ hide:
 
     Lleva tus proyectos de la pantalla a la realidad. Diseños listos para descargar, imprimir en 3D y poner a prueba en pista.
 
-    [:octicons-arrow-right-24: Ir a Cults3D](https://cults3d.com/es/usuarios/aki0n){ target="_blank" }
+    [:octicons-arrow-right-24: Ir a Cults3D](https://cults3d.com/es/usuarios/AKI0N/modelos-3d){ target="_blank" }
 
 </div>
 
