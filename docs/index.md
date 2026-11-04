@@ -1,13 +1,11 @@
 # ⚡ AKI0N Robotics
 
-<div markdown="1" style="width: 100%; max-width: 1100px; margin: 1.5rem auto 3rem auto; border-radius: 16px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.12); box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7); aspect-ratio: 16 / 9; background-color: #05060f;">
-  <iframe 
-    src="assets/images/AKI0Nanimado.html" 
-    style="width: 100%; height: 100%; border: none; display: block;"
-    scrolling="no"
-    loading="lazy"
-    title="AKI0N Animado">
-  </iframe>
+<div align="center" style="margin: 1.5rem auto 2.5rem auto; max-width: 1100px;">
+  <img 
+    src="assets/images/AKI0N_mejorada_2x.png" 
+    alt="AKI0N Hub - Robótica y Competencia" 
+    style="width: 100%; height: auto; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.12); box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7); display: block;"
+  />
 </div>
 Plataforma oficial de documentación técnica, esquemáticos y guías de ensamble para robots de competencia y proyectos.
 
