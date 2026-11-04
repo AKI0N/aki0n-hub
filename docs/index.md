@@ -1,4 +1,3 @@
-# ⚡ AKI0N Robotics
 
 <div class="akion-hero-container">
   <img src="assets/images/AKI0N_mejorada_2x.png" alt="AKI0N Hub" class="akion-island-bg">
