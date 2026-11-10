@@ -20,20 +20,14 @@ El chasis cuenta con orificios pasantes específicos para fijar los dos motorred
 ## ⚡ Paso 2: Cableado y Circuito de Potencia
 
 Para alimentar el sistema de forma segura y facilitar la recarga, se utiliza un conector o cable adaptador compatible con tu batería LiPo (por ejemplo, conector JST, XT30 o T-Plug):
+Sigue este esquema para cablear la alimentación, el receptor y las salidas de potencia hacia los motores:
+El cableado principal se centraliza a través del controlador de velocidad (ESC):
+<div align="center" style="margin: 1.5rem 0;">
+  <img src="../../../assets/images/rc.png" alt="Esquema de conexiones electrónicas" style="max-height: 480px; width: auto; border-radius: 12px; border: 1px solid rgba(0, 229, 255, 0.25); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6); display: inline-block;">
+</div>
 
-1. **Soldadura del Conector de Batería y Switch:**
-    * **Línea Positiva (Rojo):** Suelda el cable rojo (+) del conector de la batería a uno de los terminales del **switch**. Desde el otro terminal del switch, suelda un cable que vaya directo a la entrada positiva (`V+` / cable rojo) del **ESC**. De esta forma, el interruptor corta la alimentación total del robot.
-    * **Línea Negativa (Negro / GND):** Suelda el cable negro (-) del conector de la batería directamente a la entrada negativa (`GND` / cable negro) del **ESC**.
-    * **Aislamiento:** Coloca tubo termorretráctil (espagueti térmico) en cada punto soldado del switch y del conector para evitar cortocircuitos dentro del habitáculo.
-
-2. **Motores al ESC:**
-    * Suelda las salidas de motor del ESC (Canal A y Canal B) a los terminales de los dos motores TT.
-    
-
-3. **Conexión al Receptor RC:**
-    * Conecta los cables tipo servo de tres hilos provenientes del ESC a los canales de aceleración y dirección (habitualmente Ch1 y Ch2) de tu receptor de radio 2.4 GHz.
     *Tip de prueba:* Si al encender y accionar el control un motor gira al revés, intercambia los dos cables de ese motor para invertir el sentido de giro o invierte los canales en el radiocontrol.
-4. **Alojamiento Interno:**
+ **Alojamiento Interno:**
     * Monta el switch en su ranura exterior del chasis.
     * Acomoda el ESC, el receptor y el conector de batería en el compartimento central, asegurando los componentes con cinta doble faz o bridas plásticas.
 ---

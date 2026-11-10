@@ -11,8 +11,10 @@ En esta sección se detalla el proceso de integración mecánica de los motores 
 
 ### 2. Conexiones Electrónicas
 
+Sigue este esquema para cablear la alimentación, el receptor y las salidas de potencia hacia los motores:
 El cableado principal se centraliza a través del controlador de velocidad (ESC):
+<div align="center" style="margin: 1.5rem 0;">
+  <img src="../../../assets/images/soccer.png" alt="Esquema de conexiones electrónicas" style="max-height: 480px; width: auto; border-radius: 12px; border: 1px solid rgba(0, 229, 255, 0.25); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6); display: inline-block;">
+</div>
 
-* **Motores al ESC:** Conecta las salidas de potencia del ESC hacia los terminales de cada motor. *(si el sentido de giro de una rueda es inverso al deseado, basta con invertir la polaridad de sus dos cables).*
-* **Alimentación (LiPo 3S) al ESC:** Los cables de alimentación principal del ESC van conectados directamente a la batería LiPo de 3S (respetando positivo y negativo).
-* **ESC al Receptor RC:** Conecta los conectores de señal (cable tipo servo) del ESC a los canales correspondientes del receptor inalámbrico (habitualmente CH1 y CH2 para dirección y aceleración).
+ Conecta los conectores de señal (cable tipo servo) del ESC a los canales correspondientes del receptor inalámbrico (habitualmente CH1 y CH2 para dirección y aceleración).
