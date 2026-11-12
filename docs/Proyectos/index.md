@@ -1,6 +1,6 @@
 # 💡 Laboratorio de Proyectos
 
-Bienvenido al espacio de creación y aprendizaje práctico de **AKI0N**. 
+Bienvenido al espacio de creación y aprendizaje práctico de **AKI0N Hub**. 
 
 A diferencia de los robots de competencia orientados al reglamento estricto y alto rendimiento, este apartado está diseñado para **construir proyectos paso a paso desde cero**, desglosando la ingeniería detrás de cada sistema para dominar sus tres pilares esenciales:
 
@@ -32,7 +32,7 @@ A diferencia de los robots de competencia orientados al reglamento estricto y al
     </div>
   </div>
 
-  <!-- Tarjeta 2: Dispensador Liquido Automatico (Próximamente) -->
+  <!-- Tarjeta 2: Dispensador de Liquidos (Próximamente) -->
   <div style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; background: rgba(255, 255, 255, 0.01); opacity: 0.7;">
     <div>
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem;">
@@ -40,7 +40,7 @@ A diferencia de los robots de competencia orientados al reglamento estricto y al
         <span style="background: #334155; color: #94a3b8; font-size: 0.7rem; font-weight: bold; padding: 2px 8px; border-radius: 4px;">Próximamente</span>
       </div>
       <p style="font-size: 0.9rem; color: #94a3b8; line-height: 1.5;">
-        Lectura de sensores infrarrojos reflectivos, calibración de pista blanca/negra e introducción al control proporcional.
+        Lectura de sensores infrarrojos.
       </p>
     </div>
     <div style="margin-top: 1.5rem;">
