@@ -32,7 +32,7 @@ A diferencia de los robots de competencia orientados al reglamento estricto y al
     </div>
   </div>
 
-  <!-- Tarjeta 2: Dispensador de Liquidos (Próximamente) -->
+  <!-- Tarjeta 2: Dispensador de Líquidos (Próximamente) -->
   <div style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; background: rgba(255, 255, 255, 0.01); opacity: 0.7;">
     <div>
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem;">
