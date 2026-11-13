@@ -28,3 +28,6 @@
 </div>
 La categoría de Robot Soccer se trata de partidos por equipos 2v2 o 3v3, cuyo objetivo es marcar goles conduciendo un balón estándar de golf. Para competir, el diseño debe ajustarse a las reglas oficiales: dimensiones máximas de 10×10 cm (en Pro), masa máxima de 500 g, encaje para pelota de hasta 3 cm y disparador con recorrido de máximo 5 cm.
 
+1. [**Materiales y Componentes**](./materiales.md): Lista detallada de tornillería, componentes electrónicos, filamento recomendado y herramientas necesarias.
+2. [**Ensamblaje y Conexiones**](./ensamblaje.md): Guía paso a paso del montaje mecánico, cableado del puente H hacia el receptor y asignación de canales.
+3. [**Descarga STL**](./descargas.md): Archivos listos para mandar a la impresora 3D y parámetros recomendados de laminación.
