@@ -46,7 +46,7 @@ Explora la documentación técnica, reglamentos, esquemáticos y archivos 3D de 
       <a href="mini-sumo/" style="color: #ff4d4d; font-weight: bold; text-decoration: none; font-size: 0.95rem; padding-bottom: 4px;">
         → Explorar Mini Sumo
       </a>
-      <img src="../assets/images/MB_MB.jpeg" alt="Robot Mini Sumo" style="width: 90px; height: 65px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(255, 77, 77, 0.35); box-shadow: 0 2px 10px rgba(0,0,0,0.5);">
+      <img src="../assets/images/MB_MA.jpeg" alt="Robot Mini Sumo" style="width: 90px; height: 65px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(255, 77, 77, 0.35); box-shadow: 0 2px 10px rgba(0,0,0,0.5);">
     </div>
   </div>
 
