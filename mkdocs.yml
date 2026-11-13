@@ -37,6 +37,7 @@ extra_javascript:
 nav:
   - Inicio: index.md
   - Robots de Competencia:
+      - Vista General: robots/index.md
       - Soccer Pro:
           - Acerca de la Categoría: robots/soccer-pro/acerca-de.md
           - Materiales y Componentes: robots/soccer-pro/materiales.md
@@ -49,10 +50,8 @@ nav:
               - Materiales: robots/mini-sumo/rc-amateur/materiales.md
               - Ensamblaje y Conexión: robots/mini-sumo/rc-amateur/ensamblaje.md
               - Descarga STL: robots/mini-sumo/rc-amateur/descargas.md
-
   - Proyectos:
       - Generalidades: proyectos/index.md
-
   - Comunidad:
       - comunidad/galeria.md
   - Redes y Contacto: contacto.md
