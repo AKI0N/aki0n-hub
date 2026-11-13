@@ -23,7 +23,7 @@ A diferencia de los robots de competencia orientados a reglamentos estrictos, es
   <div style="border: 1px solid rgba(0, 229, 255, 0.25); border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; background: rgba(0, 229, 255, 0.03); box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
     <div>
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem;">
-        <span style="font-size: 1.15rem; font-weight: bold; color: #00e5ff;">🤖 Esquivador de Obstáculos</span>
+        <span style="font-size: 1.15rem; font-weight: bold; color: #00e5ff;">🤖 Esquivador de Obstáculos 1 sensor</span>
         <span style="background: rgba(0, 229, 255, 0.15); color: #00e5ff; border: 1px solid rgba(0, 229, 255, 0.4); font-size: 0.7rem; font-weight: bold; padding: 2px 8px; border-radius: 4px;">PRÓXIMAMENTE</span>
       </div>
       <p style="font-size: 0.9rem; color: #cbd5e1; line-height: 1.5;">
@@ -35,11 +35,11 @@ A diferencia de los robots de competencia orientados a reglamentos estrictos, es
   <div style="border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; background: rgba(255, 255, 255, 0.02); box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
     <div>
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem;">
-        <span style="font-size: 1.15rem; font-weight: bold; color: #e2e8f0;">⚡ Seguidor de Línea Básico</span>
+        <span style="font-size: 1.15rem; font-weight: bold; color: #e2e8f0;">⚡ Dispensador de Liquidos</span>
         <span style="background: #334155; color: #cbd5e1; font-size: 0.7rem; font-weight: bold; padding: 2px 8px; border-radius: 4px;">PRÓXIMAMENTE</span>
       </div>
       <p style="font-size: 0.9rem; color: #94a3b8; line-height: 1.5;">
-        Lectura de sensores infrarrojos reflectivos, calibración de contraste blanco/negro y control diferencial en pista.
+        Lectura de sensores infrarrojos.
       </p>
     </div>
   </div>
