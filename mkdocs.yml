@@ -51,7 +51,7 @@ nav:
               - Ensamblaje y Conexión: robots/mini-sumo/rc-amateur/ensamblaje.md
               - Descarga STL: robots/mini-sumo/rc-amateur/descargas.md
   - Proyectos:
-      - Generalidades: proyectos/index.md
+      - Vista General: proyectos/index.md
   - Comunidad:
       - comunidad/galeria.md
   - Redes y Contacto: contacto.md
