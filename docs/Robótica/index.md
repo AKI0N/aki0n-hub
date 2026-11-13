@@ -1,12 +1,6 @@
----
-hide:
-  - navigation
-  - toc
----
-
 # 💡 Laboratorio de Proyectos
 
-Bienvenido al espacio de creación y aprendizaje práctico de **AKI0N Hub**.
+Bienvenido al espacio de creación y aprendizaje práctico de **AKI0N**.
 
 A diferencia de los robots de competencia orientados a reglamentos estrictos, este apartado está diseñado para **construir proyectos paso a paso desde cero**, desglosando la ingeniería detrás de cada sistema para dominar sus tres pilares fundamentales:
 
