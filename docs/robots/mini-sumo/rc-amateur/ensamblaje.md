@@ -1,7 +1,7 @@
 # 🛠️ Ensamblaje y Conexiones Eléctricas
-
-El ensamblaje del **Mini Sumo RC Amateur** combina un montaje mecánico directo en el chasis 3D, fijación de frentes de choque y cableado de control mediante ESC.
+El ensamblaje del **Mini Sumo RC Amateur** 
 ---
+combina un montaje mecánico directo en el chasis 3D, fijación de frentes de choque y cableado de control mediante ESC.
 ## 🔩 Paso 1: Montaje Mecánico de Tracción
 
 El chasis cuenta con orificios pasantes específicos para fijar los dos motorreductores tipo TT (1 eje):
