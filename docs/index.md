@@ -17,7 +17,7 @@ hide:
   </p>
 </div>
 
-[Explorar Robots :octicons-arrow-right-24:](robots/soccer-pro/acerca-de.md){ .md-button .md-button--primary }
+[Explorar Robots :octicons-arrow-right-24:](robots/index.md){ .md-button .md-button--primary }
 <!-- [Catálogo en Cults3D :material-cube-outline:](https://cults3d.com/es/usuarios/aki0n){ .md-button target="_blank" } -->
 
 ---
