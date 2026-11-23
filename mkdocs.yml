@@ -50,6 +50,12 @@ nav:
               - Materiales: robots/mini-sumo/rc-amateur/materiales.md
               - Ensamblaje y Conexión: robots/mini-sumo/rc-amateur/ensamblaje.md
               - Descarga STL: robots/mini-sumo/rc-amateur/descargas.md
+
+          - Rc Profesional:
+              - Introducción: robots/mini-sumo/rc-profesional/index.md
+              - Materiales: robots/mini-sumo/rc-profesional/materiales.md
+              - Ensamblaje y Conexión: robots/mini-sumo/rc-profesional/ensamblaje.md
+              - Descarga STL: robots/mini-sumo/rc-profesional/descargas.md
   
   - Proyectos: Robótica/index.md 
   - Comunidad:
