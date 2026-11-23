@@ -38,19 +38,19 @@ El **Mini Sumo** es una de las categorías de combate robótico más dinámicas 
   </div>
 
 <!-- Tarjeta 2: RC PRO (ACTIVA) -->
-<div style="border: 1px solid rgba(255, 59, 59, 0.25); border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; background: rgba(255, 59, 59, 0.03); box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
+<div style="border: 2px solid #ff3344(255, 59, 59, 0.25); border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; background: rgba(255, 59, 59, 0.03); box-shadow: 0 4px 20px rgba(0,0,0,0.4);">
   <div>
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-      <h3 style="margin: 0; color: #ff4d4d; font-size: 1.25rem;">⚡ RC Pro</h3>
-      <span style="background: #ff4d4d; color: #fff; font-size: 0.7rem; font-weight: bold; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">Disponible</span>
+      <h3 style="margin: 0; color: #ff3344; font-size: 1.25rem;">⚡ RC Pro</h3>
+      <span style="background: #ff3344; color: #ffffff; font-size: 0.7rem; font-weight: bold; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">Disponible</span>
     </div>
-    <p style="font-size: 0.9rem; color: #cbd5e1; line-height: 1.5;">
-      Dominio y potencia al extremo. Para pilotos que buscan llevar la tracción, la velocidad de reacción y la agresividad del choque al estándar más alto del torneo.
+    <p style="font-size: 0.9rem; color: #a1a1aa; line-height: 1.5;">
+      Dominio y potencia al extremo. Para pilotos que buscan llevar la tracción, la velocidad de reacción y la agresividad del choque al más alto nivel.
     </p>
   </div>
   <div style="margin-top: 1.5rem;">
-  <a href="rc-profesional/" style="color: #ff4d4d; font-weight: bold; text-decoration: none; font-size: 0.95rem;">
-  → Explorar RC Pro
+  <a href="rc-profesional/" style="color: #ff3344; font-weight: bold; text-decoration: none; font-size: 0.95rem;">
+  → Ver Guía de Construcción
 </a>
   </div>
 </div>

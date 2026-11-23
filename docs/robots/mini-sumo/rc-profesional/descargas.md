@@ -18,7 +18,7 @@ El robot ha sido dimensionado estrictamente bajo el reglamento oficial de Mini S
 | :--- | :---: | :---: | :---: |
 | **Largo total (Eje X)** | **90.37 mm** (chasis base) | **~90.0 mm – 95.0 mm** (con cuchilla montada) | Margen seguro 5 mm |
 | **Ancho frontal (Eje Y)** | **98.00 mm** (filo de pala) | **98.00 mm** | Margen de 2 mm de tolerancia total |
-| **Alto del chasis (Eje Z)** | **32.50 mm** (bahía interna) / **5 - 6 mm** (frente) | Variable según la altura de los motores TT | Sin límite reglamentario de altura |
+| **Alto del chasis (Eje Z)** | **32.50 mm** (bahía interna) / **5 - 6 mm** (frente) | Sin límite reglamentario de altura |
 
 
 ---
