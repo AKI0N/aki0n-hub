@@ -8,12 +8,12 @@ El chasis cuenta con orificios pasantes específicos para fijar los dos motorred
 
 1. **Colocación de Motores:** Desliza cada motorreductor en su respectivo alojamiento lateral asegurando que los ejes queden alineados hacia afuera.
 2. **Fijación Contrapuesta con Tornillos M3:**
-    * Pasa un tornillo M3 largo (5o 5.5mm) a través del orificio del motor en un sentido y coloca su tuerca en el extremo opuesto sin apretar al máximo.
+    * Pasa un tornillo M3 largo (5 o 6 mm) a través del orificio del motor en un sentido y coloca su tuerca en el extremo opuesto sin apretar al máximo.
     * Pasa el segundo tornillo M3  en sentido contrario (de adentro hacia afuera o viceversa según el orificio) y coloca su tuerca.
     * Ajusta ambos tornillos de forma uniforme para mantener el motor firme y sin holgura angular.
 3. **Rines y Neumáticos:**
     * Monta los rines 3D a presión en cada motor TT.
-    * Coloca las gomas de silicona/caucho sobre los rines verificando que asienten completamente.
+    * Coloca las gomas de silicona/caucho (diametro int. 16 mm , diametro ext.26) sobre los rines verificando que asienten completamente. 
 
 ---
 
