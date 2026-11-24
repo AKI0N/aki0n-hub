@@ -13,7 +13,7 @@ El chasis cuenta con orificios pasantes específicos para fijar los dos motorred
     * Ajusta ambos tornillos de forma uniforme para mantener el motor firme y sin holgura angular.
 3. **Rines y Neumáticos:**
     * Monta los rines 3D a presión en cada motor TT.
-    * Coloca las gomas de silicona/caucho (diametro int. 16 mm , diametro ext.26) sobre los rines verificando que asienten completamente. 
+    * Coloca las gomas de silicona/caucho (diámetro int. 16 mm , diámetro ext.26) sobre los rines verificando que asienten completamente. 
 
 ---
 
